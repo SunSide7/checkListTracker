@@ -1,0 +1,13 @@
+header.header
+    .container
+        .header__inner
+            img.header__logo
+            h1.header__title
+
+main.main
+    .container
+        .main__inner
+            .day-element
+                .day-element__title
+                .day-element__checkboxes*30
+                    input[type=checkbox]*7
